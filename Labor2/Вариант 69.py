@@ -1,4 +1,5 @@
 import math
+# -*- coding: utf-8 -*- 
 
 print ( ' Введите x = ')
 x = int(input ( ) )
