@@ -9,8 +9,6 @@ val_x = []
 
 
 uslovie = int(1)
-first_average_arifmetic = float
-finally_average_arifmetic = float
 for_y = int(1)
 for_values = int(1)
 i = int(0)
