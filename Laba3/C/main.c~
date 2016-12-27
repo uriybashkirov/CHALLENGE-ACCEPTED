@@ -22,7 +22,7 @@ int main() {
             printf("%s", "Включить адаптивный шаг? 1 если да, 0 если нет");
             scanf("%i", &adaptive_step);
             FILE *file;
-            file = fopen("text.txt", "w+");/*открываем фаил или создаем его если его нет, перезаписываем файл каждый раз(потому что стиит w)*/
+            file = fopen("/home/prostoimbo/Documents/Project3/text.txt", "w+");/*открываем фаил или создаем его если его нет, перезаписываем файл каждый раз(потому что стиит w)*/
             switch (n) {
                 case 1:
                     while (x <= x1) {

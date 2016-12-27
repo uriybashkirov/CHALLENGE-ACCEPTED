@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 
-data = open('text.txt', 'r') # открываем фаил по этому пути и просто читаем его
+data = open('/home/prostoimbo/Documents/Project3/text.txt', 'r') # открываем фаил по этому пути и просто читаем его
 y = []
 x = []
 for line in data: # читаем по строчно из файла дата
