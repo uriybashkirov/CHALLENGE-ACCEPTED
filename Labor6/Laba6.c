@@ -140,11 +140,12 @@ int main() {
                 } else
                     printf("Строка не найдена\n"); /*Если s = strstr(mas_x_and_y, pattern); вернёт нам null,
                     то значит ничего не нашлось*/
+		f=0;
                 while (f.x <= x1) {
                     memset(mas_x_and_y, 0, 400);
                     memset(mas_y, 0, 200);
                     memset(mas_x, 0, 200);
-                    F = sin(28 * pow(a, 2) - 57 * a * f.x + 14 * pow(g.x, 2));
+                    F = sin(28 * pow(a, 2) - 57 * a * f.x + 14 * pow(f.x, 2));
                         fprintf(file, "%.2lf\n%.2lf\n", f.x, F);
                         if (j == 0) {
                             printf("┌───────────────────┬───────────────────┐\n");
@@ -240,6 +241,7 @@ int main() {
                 } else
                     printf("Строка не найдена\n"); /*Если s = strstr(mas_x_and_y, pattern); вернёт нам null,
                     то значит ничего не нашлось*/
+		j=0;
                 while (y.x <= x1) {
                     memset(mas_x_and_y, 0, 400);
                     memset(mas_y, 0, 200);
