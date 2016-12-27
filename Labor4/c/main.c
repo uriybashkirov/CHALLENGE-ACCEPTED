@@ -55,7 +55,7 @@ int main() {
                             } else {
                                 x_values[j] = x;
                                 y_values[j] = G;
-                                printf("X=%.3lf Y=%.3lf\n", x, G);
+                                printf("│%19.3lf│%19.3lf│\n",x,G );
                                 x += step;
                             } /* если адаптивный не срабатывает, т.е. не зачем увеличивать или уменьшать шаг, то просто прибавляем значение r*/
                             j += 1;
@@ -124,7 +124,7 @@ int main() {
                             } else {
                                 x_values[j] = x;
                                 y_values[j] = G;
-                                printf("X=%.3lf Y=%.3lf\n", x, F);
+                                printf("│%19.3lf│%19.3lf│\n",x,F );
                                 x += step;
                             }
                             j += 1;
@@ -192,7 +192,7 @@ int main() {
                             } else {
                                 x_values[j] = x;
                                 y_values[j] = Y;
-                                printf("X=%.3lf Y=%.3lf\n", x, Y);
+                                printf("│%19.3lf│%19.3lf│\n",x,Y );
                                 x += step;
                             }
                             j += 1;
