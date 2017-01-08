@@ -25,7 +25,7 @@ int main() {
 
     for (amount_of_points = 200; amount_of_points < 5000; amount_of_points+=200) { 
 
-        clock_t time; /* найдем время выполнения программы */
+        clock_t time; /*  время выполнения программы */
         time = clock();
 
         int x[amount_of_points];
@@ -36,7 +36,7 @@ int main() {
             y[i] = rand_for_y(y_start, x_and_y_end);
         }
 
-        i = 1 + rand() % (amount_of_points - 1); /*тот же алгоритм */
+        i = 1 + rand() % (amount_of_points - 1); /*алгоритм cхожий с предыдущим */
         printf("Координаты случайно выбранной точки [%i,%i]\n", x[i], y[i]);
 
         i = 0;
